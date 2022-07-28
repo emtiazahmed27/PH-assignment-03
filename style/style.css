@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.spacing-t-1 {
+  margin-top: 1rem;
+}
+
+.spacing-t-3 {
+  margin-top: 3rem;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.carousel:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.btn-lg {
+  width: 10em;
+}
+
+.carousel-caption {
+  height: 40vh;
+  width: 50em;
+  position: absolute;
+  left: calc(50% - 25em);
+  top: calc(50% - 20vh);
+  z-index: 2;
+}
