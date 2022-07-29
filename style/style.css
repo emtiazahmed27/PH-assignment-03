@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +23,11 @@
 
 .w-90 {
   width: 90%;
+}
+
+.txt-deco {
+  text-decoration: none;
+  color: white;
 }
 
 .carousel:after {
@@ -52,9 +58,18 @@
   height: fit-content;
 }
 
+.fa-brands {
+  font-style: normal;
+  font-size: 1.7em;
+}
+
 @media only screen and (max-width: 575px) {
   .carousel-img {
     width: 100%;
     height: 400px;
+  }
+  .course-content-img {
+    width: 100%;
+    max-height: 200px;
   }
 }
